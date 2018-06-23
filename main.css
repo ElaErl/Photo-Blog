@@ -1,0 +1,93 @@
+  @import url("whitespace-reset.css");
+
+  html {
+    background: linear-gradient(to bottom, #d2dbbd, white);
+    font-size: 18px;
+    font-family: 'Crimson Text', Helvetica, Arial, sans-serif;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 70px;
+    width: 960px;
+  }
+
+  header, section, ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    align-self: flex-end;
+  }
+
+  section {
+    align-items: center;
+    padding: 17px;
+  }
+
+  section img {
+    padding-right: 13px;
+  }
+
+  h1 {
+    align-self: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #193441;
+  }
+
+  [src="img-masthead.jpg"] {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  h2, p {
+    margin-bottom: 25px;
+    color: #526e7b;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  article {
+    border: 30px solid white;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 5px 5px gray;
+    overflow: hidden;
+  }
+
+  .active {
+    background-color: #91aa9d;
+    color: white;
+  }
+
+  a, li {
+    color: #91aa9d;
+    background-color: white;
+    text-decoration: none;
+  }
+
+  li {
+    padding: 12px 40px;
+    margin: 0 2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  ul {
+    margin-right: 20px;
+  }
+
+  [src="img-article.jpg"] {
+    float: right;
+    margin-bottom: 45px;
+    margin-left: 41px;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding-top: 15px;
+  }
